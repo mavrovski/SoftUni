@@ -10,12 +10,12 @@ public class Program
 		var loadsWithTruck=0.00;
 		var loadsWithTrain=0.00;
 		var averageLoadsSum=0.00;
-		//var zumbuls	 = int.Parse(Console.ReadLine());
+		
 
 		for(int i=1;i<=n;i++)
 		{
 		var load = int.Parse(Console.ReadLine());
-			totalLoads = totalLoads+load;//totalLoads+=load
+			totalLoads = totalLoads+load;
 			if(load <= 3)
 			{
 			loadsWithBus=loadsWithBus+load;
