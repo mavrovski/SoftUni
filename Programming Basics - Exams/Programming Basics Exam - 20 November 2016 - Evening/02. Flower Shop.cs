@@ -4,8 +4,8 @@ public class Program
 {
 	public static void Main()
 	{
-		var magnolies = int.Parse(Console.ReadLine());
-		var zumbuls	 = int.Parse(Console.ReadLine());
+		var magnolias = int.Parse(Console.ReadLine());
+		var hyacinths = int.Parse(Console.ReadLine());
 		var roses = int.Parse(Console.ReadLine());
 		var cactus = int.Parse(Console.ReadLine());
 		var giftPrice = double.Parse(Console.ReadLine());
