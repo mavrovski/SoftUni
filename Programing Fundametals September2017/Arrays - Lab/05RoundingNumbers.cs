@@ -15,10 +15,7 @@ namespace _05RoundingNumbers
             {
                 Console.WriteLine("{0} = {1}",num,Math.Round(num,MidpointRounding.AwayFromZero));
             }
-            //for (int i = 0; i < numbers.Length; i++)
-            //{
-            //    Console.WriteLine("{0} = {1}", numbers[i], Math.Round(numbers[i], MidpointRounding.AwayFromZero));
-            //}
+         
         }
     }
 }
