@@ -21,14 +21,7 @@ namespace _04TripleSum
                         Console.WriteLine($"{numbers[a]} + {numbers[b]} == {sum}");
                         match = true;
                     }
-                    for (int i = 0; i < numbers.Length; i++)
-                    {
-                        if (numbers[i]==sum)
-                        {
-                            Console.WriteLine($"{numbers[a]} + {numbers[b]} == {sum}");
-                        match = true;
-                        }
-                    }
+
                 }
             }
             if (!match)
